@@ -1,9 +1,9 @@
 <?php
 
-namespace Factories;
+namespace CouponSystem\Factories;
 
-use Factories\ICouponFactory;
-use FixedAmountDiscountCoupon;
+use CouponSystem\Factories\ICouponFactory;
+use CouponSystem\Coupons\FixedAmountDiscountCoupon;
 
 class FixedDiscountFactory implements ICouponFactory
 {

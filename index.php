@@ -1,8 +1,12 @@
 <?php
 
+require_once 'vendor/autoload.php';
+
+use CouponSystem\Director;
+
 $total = 100.00;
 
-$percentageCoupon = Director::create('percentage', 10);
-$discountTotal = $percentageCoupon->createCoupon($total);
+$percentageCoupon = Director::instance()->create('percentage', 10);
+$coupon = $percentageCoupon->createCoupon();
 
-echo "Total after percentage discount: $" . number_format($discountTotal, 2) . "\n";
+echo "Total after percentage discount: $" . number_format($coupon->apply($total), 2) . "\n";

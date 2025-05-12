@@ -1,0 +1,15 @@
+{
+    "name": "mustafa/coupon-system",
+    "autoload": {
+        "psr-4": {
+            "Mustafa\\CouponSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mostafaamahmoudd",
+            "email": "mostafaa.mahmoudd550@gmail.com"
+        }
+    ],
+    "require": {}
+}

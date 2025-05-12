@@ -1,5 +1,9 @@
 <?php
 
+namespace CouponSystem\Coupons;
+
+use CouponSystem\Coupons\ICoupon;
+
 class FixedAmountDiscountCoupon implements ICoupon
 {
     private $amount;
@@ -14,6 +18,6 @@ class FixedAmountDiscountCoupon implements ICoupon
 
     public function apply($total)
     {
-        return max(0,$total - $this->amount);
+        return max(0, $total - $this->amount);
     }
 }

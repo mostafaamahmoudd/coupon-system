@@ -1,6 +1,6 @@
 <?php
 
-namespace Factories;
+namespace CouponSystem\Factories;
 
 interface ICouponFactory
 {

@@ -1,5 +1,9 @@
 <?php
 
+namespace CouponSystem\Coupons;
+
+use CouponSystem\Coupons\ICoupon;
+
 class PercentageDiscountCoupon implements ICoupon
 {
     private $precentage;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Factories;
+namespace CouponSystem\Factories;
 
-use Factories\ICouponFactory;
-use PercentageDiscountCoupon;
+use CouponSystem\Factories\ICouponFactory;
+use CouponSystem\Coupons\PercentageDiscountCoupon;
 
 class PercentageDiscountFactory implements ICouponFactory
 {
