@@ -1,5 +1,4 @@
 # coupon-system
-```markdown
 
 A flexible e-commerce discount system built with PHP, leveraging the **Factory Method** design pattern to dynamically apply coupons and promotions.
 
@@ -23,7 +22,6 @@ A flexible e-commerce discount system built with PHP, leveraging the **Factory M
    ```bash
    git clone https://github.com/mostafaamahmoudd/coupon-system.git
    cd coupon-system
-   ```
 
 2. **Ensure PHP 8.0+** is installed:
    ```bash
