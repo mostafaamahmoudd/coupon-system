@@ -1,8 +1,8 @@
 <?php
 
-namespace CouponSystem\Coupons;
+namespace Mustafa\CouponSystem\Coupons;
 
-use CouponSystem\Coupons\ICoupon;
+use Mustafa\CouponSystem\Coupons\ICoupon;
 
 class FixedAmountDiscountCoupon implements ICoupon
 {

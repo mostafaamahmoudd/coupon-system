@@ -1,6 +1,6 @@
 <?php
 
-namespace CouponSystem\Coupons;
+namespace Mustafa\CouponSystem\Coupons;
 
 interface ICoupon
 {

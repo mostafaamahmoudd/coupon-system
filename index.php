@@ -2,7 +2,7 @@
 
 require_once 'vendor/autoload.php';
 
-use CouponSystem\Director;
+use Mustafa\CouponSystem\Director;
 
 $total = 100.00;
 

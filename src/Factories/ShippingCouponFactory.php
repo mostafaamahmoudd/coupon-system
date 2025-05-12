@@ -1,9 +1,9 @@
 <?php
 
-namespace CouponSystem\Factories;
+namespace Mustafa\CouponSystem\Factories;
 
-use CouponSystem\Factories\ICouponFactory;
-use CouponSystem\Coupons\FreeShippingCoupon;
+use Mustafa\CouponSystem\Factories\ICouponFactory;
+use Mustafa\CouponSystem\Coupons\FreeShippingCoupon;
 
 class ShippingCouponFactory implements ICouponFactory
 {

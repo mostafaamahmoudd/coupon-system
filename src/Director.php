@@ -1,11 +1,11 @@
 <?php
 
-namespace CouponSystem;
+namespace Mustafa\CouponSystem;
 
 use InvalidArgumentException;
-use CouponSystem\Factories\FixedDiscountFactory;
-use CouponSystem\Factories\PercentageDiscountFactory;
-use CouponSystem\Factories\ShippingCouponFactory;
+use Mustafa\CouponSystem\Factories\FixedDiscountFactory;
+use Mustafa\CouponSystem\Factories\PercentageDiscountFactory;
+use Mustafa\CouponSystem\Factories\ShippingCouponFactory;
 
 class Director
 {
